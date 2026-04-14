@@ -75,7 +75,26 @@ router.post('/', validateProfile, async (req, res) => {
   }
 })
 
+router.get('/', async (req, res) => {
+  try {
+    const result = await pool.query(
+      'SELECT * FROM businesses ORDER BY created_at DESC'
+    )
 
+    return res.status(200).json({
+      success: true,
+      count: result.rows.length,
+      data: result.rows
+    })
+
+  } catch (err) {
+    console.error('Fetch profiles error:', err.message)
+    return res.status(500).json({
+      success: false,
+      message: 'Internal server error'
+    })
+  }
+})
 
 router.get('/:id', async (req, res) => {
   const { id } = req.params
