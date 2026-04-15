@@ -6,7 +6,7 @@
 
 <!-- Replace the paths below with actual screenshots after deployment -->
 ![Dashboard Screenshot](./screenshots/dashboard.png)
-> 📸 _Add your screenshots in a `/screenshots` folder at the root of the repo_
+>
 
 <br/>
 
@@ -587,10 +587,6 @@ vitto-lender/
 
 ---
 
-## 📬 Contact
-
-Built as a confidential technical assessment for **Vitto**.  
-For questions, reach out to your recruiting contact.
 
 ---
 
