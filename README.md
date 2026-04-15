@@ -568,7 +568,7 @@ vitto-lender/
 
 ## 📸 Screenshots
 
-> Add screenshots to the `/screenshots` directory and update the paths below.
+
 
 | Dashboard | Loan Application | Credit Decision |
 |---|---|---|
